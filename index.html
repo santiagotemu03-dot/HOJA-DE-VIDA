@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santiago Bermúdez Gutiérrez | Hoja de Vida</title>
+  <meta name="description" content="Hoja de vida de Santiago Bermúdez Gutiérrez: estudiante de Programación con experiencia en ventas y atención al cliente.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+
+  <header class="nav" id="nav">
+    <a href="#inicio" class="nav__logo">SB</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">☰</button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#perfil">Perfil</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__text reveal">
+        <p class="eyebrow">Hola, soy</p>
+        <h1>Santiago<br>Bermúdez Gutiérrez</h1>
+        <p class="hero__role">Estudiante de Programación <span>|</span> Desarrollador</p>
+        <p class="hero__lead">Aprendo rápido, me adapto fácil y me gusta resolver problemas, tanto con código como atendiendo personas.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="docs/Hoja_de_Vida_Santiago_Bermudez.pdf" download>Descargar PDF</a>
+          <a class="btn btn--ghost" href="#contacto">Contáctame</a>
+        </div>
+      </div>
+      <div class="hero__photo reveal">
+        <div class="photo-ring">
+          <img src="foto.png" alt="Foto de Santiago Bermúdez Gutiérrez">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="perfil">
+      <h2 class="section__title reveal">Perfil profesional</h2>
+      <div class="grid grid--2">
+        <p class="reveal">
+          Estudiante de Programación próximo a culminar su carrera, con conocimientos en Java, MySQL y
+          desarrollo web con HTML y CSS. He realizado proyectos de software y páginas web de manera
+          independiente para clientes particulares.
+        </p>
+        <p class="reveal">
+          Cuento además con experiencia laboral en producción, bodega, atención al cliente y ventas, lo que me aporta
+          disciplina, orientación al servicio y buena comunicación. Tengo disponibilidad los fines de semana.
+        </p>
+      </div>
+      <div class="stats">
+        <div class="stat reveal"><strong>+4</strong><span>Áreas de experiencia laboral</span></div>
+        <div class="stat reveal"><strong>Fines de semana</strong><span>Disponibilidad</span></div>
+        <div class="stat reveal"><strong>100%</strong><span>Ganas de aprender</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <h2 class="section__title reveal">Experiencia laboral</h2>
+      <div class="timeline">
+        <article class="tl reveal">
+          <h3>Asesor de ventas independiente</h3>
+          <p class="tl__meta">Actualidad · Compatible con el horario de estudio</p>
+          <ul><li>Venta directa de productos, atención y fidelización de clientes.</li></ul>
+        </article>
+        <article class="tl reveal">
+          <h3>Desarrollador de software y páginas web <small>(freelance)</small></h3>
+          <p class="tl__meta">Proyectos para clientes particulares</p>
+          <ul><li>Desarrollo de trabajos de programación a la medida de las necesidades de cada cliente.</li></ul>
+        </article>
+        <article class="tl reveal">
+          <h3>Auxiliar de servicio · KFC</h3>
+          <p class="tl__meta">Fines de semana · Comida rápida</p>
+          <ul><li>Atención al cliente y trabajo en equipo en un entorno dinámico y de alta rotación.</li></ul>
+        </article>
+        <article class="tl reveal">
+          <h3>Auxiliar de bodega y producción · BIOZENPHARMA</h3>
+          <p class="tl__meta">Industria farmacéutica y cosmética</p>
+          <ul>
+            <li>Control y manejo de inventario en bodega.</li>
+            <li>Fabricación de productos capilares y cosméticos.</li>
+            <li>Sellado, envasado y termoformado de productos de salud.</li>
+          </ul>
+        </article>
+        <article class="tl reveal">
+          <h3>Operario de producción · Fabricación de shampoo</h3>
+          <p class="tl__meta">Industria de cuidado personal</p>
+          <ul><li>Elaboración de productos para el cuidado del cabello siguiendo los procesos establecidos.</li></ul>
+        </article>
+        <article class="tl reveal">
+          <h3>Mesero</h3>
+          <p class="tl__meta">Servicio de restaurante</p>
+          <ul><li>Atención directa a clientes y servicio en mesa.</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <h2 class="section__title reveal">Proyectos</h2>
+      <div class="grid grid--2">
+        <article class="card reveal">
+          <span class="tag">HTML · CSS</span>
+          <h3>Catálogo de Salud</h3>
+          <p>Sitio web de catálogo de productos de salud.</p>
+          <a href="#" class="card__link">Ver proyecto →</a>
+        </article>
+        <article class="card reveal">
+          <span class="tag">HTML · CSS</span>
+          <h3>Granizados a tu gusto</h3>
+          <p>Sitio web para un negocio de granizados personalizados.</p>
+          <a href="#" class="card__link">Ver proyecto →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <h2 class="section__title reveal">Habilidades</h2>
+      <div class="grid grid--2">
+        <div class="reveal">
+          <h3 class="sub">Técnicas</h3>
+          <ul class="chips">
+            <li>Java</li><li>MySQL</li><li>HTML</li><li>CSS</li><li>Git y GitHub</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h3 class="sub">Personales</h3>
+          <ul class="chips">
+            <li>Aprendizaje rápido</li><li>Trabajo en equipo</li><li>Servicio al cliente</li>
+            <li>Resolución de problemas</li><li>Adaptabilidad</li><li>Responsabilidad</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="formacion">
+      <h2 class="section__title reveal">Formación académica</h2>
+      <article class="card reveal">
+        <h3>Programación · Uniagustiniana</h3>
+        <p>En curso, próximo a finalizar.</p>
+      </article>
+    </section>
+
+    <section class="section section--contact" id="contacto">
+      <h2 class="section__title reveal">Contacto</h2>
+      <p class="reveal">¿Hablamos? Estoy disponible los fines de semana.</p>
+      <div class="contact reveal">
+        <a class="btn btn--primary" href="tel:+573217073701">+57 321 707 3701</a>
+        <a class="btn btn--ghost" href="mailto:santiagobermudezgutierrez09@gmail.com">Enviar correo</a>
+        <a class="btn btn--ghost" href="https://wa.me/573217073701" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Santiago Bermúdez Gutiérrez</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
